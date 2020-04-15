@@ -60,8 +60,6 @@ func (p1 *RidePosition) CalculateSpeed(p2 *RidePosition) (float64, error) {
 	dtime := p1.CalculateElapsedTime(p2)
 
 	if dtime == 0 {
-		println(p1.id)
-		println(p2.id)
 		return math.NaN(), errors.New("could not proceed with the speed calculation: elapsed time = 0")
 	}
 
