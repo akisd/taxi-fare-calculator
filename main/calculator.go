@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "../../taxifarecalculator"
+	. "../../taxi-fare-calculator"
 	"encoding/csv"
 	"log"
 	"os"
